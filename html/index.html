@@ -165,18 +165,41 @@
 
 	<!-- contact-wrapper -->
 	<section class="contact-wrapper">
-
+		
 		<article class="map-wrapper">
 			<!-- TODO 카카오 지도넣기 -->
-			<img src="../img/map.jpg" alt="지도">
 		</article>
 	</section>
 
-	<!-- -footerwrapper -->
+	<!-- -footer-wrapper -->
 	<footer class="footer-wrapper">
 
 	</footer>
 
+	<!-- popup-wrapper -->
+	<div class="modal-wrapper">
+		<div class="modal-wrap">
+			<div class="modal-header">
+				<h2 class="title"><i class="fa fa-suitcase"></i>Tickets</h2>
+				<button class="bt-close"><i class="fa fa-times"></i></button>
+			</div>
+			<div class="modal-body">
+				<form action="#">
+					<label for="ticketPerson"><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label>
+					<input type="text" name="people" id="ticketPerson" placeholder="How many?">
+					<label for="ticketEmail"><i class="fa fa-user"></i> Send To</label>
+					<input type="text" name="email" id="ticketEmail" placeholder="Enter email">
+					<button class="bt-send">PAY <i class="fa fa-check"></i></button>
+				</form>
+			</div>
+			<div class="modal-footer clearfix">
+				<button class="bt-close">Close <i class="fa fa-times"></i></button>
+				<div class="help">
+					Need <a href="#">help?</a>
+				</div>
+			</div>
+		</div>
+	</div>
 	<script src="../js/index.js"></script>
 </body>
 
