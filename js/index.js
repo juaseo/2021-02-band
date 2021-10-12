@@ -21,6 +21,10 @@ $(".header-wrapper .monavi").click(function(){
 	$('.monavi-wrapper').removeClass('active')
 })
 
+$('.header-wrapper .navi, .header-wrapper .monavi').click(function() {
+	$('.monavi-wrapper').removeClass('active')
+})
+
 var swiper = new Swiper('.main-wrapper .swiper-container', {
 	loop: true,
 	effect: 'fade',
