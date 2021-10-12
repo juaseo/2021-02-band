@@ -2,7 +2,7 @@
 /* font-family: 'Lato', sans-serif; */
 
 /************************* default ***************************/
-html,body {font: 16px 'Lato', sans-serif; height: 5000px; letter-spacing: -.5px; color: #121212;}
+html,body {font: 16px 'Lato', sans-serif; letter-spacing: -.5px; color: #121212;}
 .wrapper {max-width: 800px; padding: 5em 1em; margin: auto;}
 .wrapper > .title {text-align: center;}
 .wrapper > h2.title {font-size: 1.625em; letter-spacing: 5px; margin-bottom: 1em;}
