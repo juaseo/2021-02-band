@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="../css/swiper-bundle.min.css">
 	<script src="../js/jquery-3.6.0.min.js"></script>
 	<script src="../js/swiper-bundle.min.js"></script>
+	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=ad574032bbba1fa384a7455b80ec2f39"></script>
 </head>
 
 <body>
@@ -165,15 +166,39 @@
 
 	<!-- contact-wrapper -->
 	<section class="contact-wrapper">
-		
-		<article class="map-wrapper">
-			<!-- TODO 카카오 지도넣기 -->
-		</article>
+		<div class="wrapper">
+			<h2 class="title">CONTACT</h2>
+			<h3 class="title">Fan? Drop a note!</h3>
+			<div class="contact-wrap clearfix">
+				<ul class="info-wrap">
+					<li class="address"><i class="fa fa-map-marker-alt"></i>Chicago, US</li>
+					<li class="phone"><i class="fa fa-phone-alt"></i>Phone: +00 151515</li>
+					<li class="email"><i class="fa fa-envelope"></i>Email: mail@mail.com</li>
+				</ul>
+				<form class="contact-form clearfix">
+					<input type="text" name="name" placeholder="name">
+					<input type="text" name="email" placeholder="Email">
+					<input type="text" name="msg" placeholder="Message">
+					<button class="bt-send">SEND</button>
+				</form>
+			</div>
+		</div>
+		<!-- TODO 카카오 지도넣기 -->
+		<div class="map-wrap" id="map">
+		</div>
 	</section>
 
 	<!-- -footer-wrapper -->
 	<footer class="footer-wrapper">
-
+		<ul class="sns-wrap">
+			<li class="sns"><a href="#" class="fab fa-facebook"></a></li>
+			<li class="sns"><a href="#" class="fab fa-instagram"></a></li>
+			<li class="sns"><a href="#" class="fab fa-snapchat"></a></li>
+			<li class="sns"><a href="#" class="fab fa-pinterest"></a></li>
+			<li class="sns"><a href="#" class="fab fa-twitter"></a></li>
+			<li class="sns"><a href="#" class="fab fa-linkedin"></a></li>
+		</ul>
+		<div class="copyright">Powered by <a href="#">w3.css</a></div>
 	</footer>
 
 	<!-- popup-wrapper -->
