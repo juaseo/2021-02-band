@@ -48,3 +48,5 @@ map.setZoomable(false);
 $(window).resize(function() {
 	map.setCenter(center);
 })
+
+new WOW({ offset: 500 }).init()

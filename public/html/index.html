@@ -7,12 +7,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>BAND</title>
 	<link rel="stylesheet" href="../css/all.min.css">
+	<link rel="stylesheet" href="../css/animate.compat.css">
 	<link rel="stylesheet" href="../css/base.css">
 	<link rel="stylesheet" href="../css/index.css">
 	<link rel="stylesheet" href="../css/swiper-bundle.min.css">
 	<script src="../js/jquery-3.6.0.min.js"></script>
 	<script src="../js/swiper-bundle.min.js"></script>
 	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=ad574032bbba1fa384a7455b80ec2f39"></script>
+	<script src="../js/wow.min.js"></script>
 </head>
 
 <body>
@@ -82,9 +84,9 @@
 	<a name="band" class="anchor"></a>
 	<section class="band-wrapper">
 		<div class="wrapper">
-			<h2 class="title">THE BAND</h2>
-			<h3 class="title">We love music</h3>
-			<p class="comment">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing
+			<h2 class="title wow fadeIn">THE BAND</h2>
+			<h3 class="title wow fadeIn">We love music</h3>
+			<p class="comment wow fadeInUp">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing
 				elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
 				exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
 				voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
@@ -92,15 +94,15 @@
 				incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
 				nisi ut aliquip ex ea commodo consequat.</p>
 			<ul class="member-wrap clearfix">
-				<li class="member">
+				<li class="member wow fadeInLeft">
 					<h4 class="name">Name</h4>
 					<img src="../img/bandmember.jpg" alt="멤버사진" class="img">
 				</li>
-				<li class="member">
+				<li class="member wow fadeInUp">
 					<h4 class="name">Name</h4>
 					<img src="../img/bandmember.jpg" alt="멤버사진" class="img">
 				</li>
-				<li class="member">
+				<li class="member wow fadeInRight">
 					<h4 class="name">Name</h4>
 					<img src="../img/bandmember.jpg" alt="멤버사진" class="img">
 				</li>
@@ -112,25 +114,25 @@
 	<a name="tour" class="anchor"></a>
 	<section class="tour-wrapper">
 		<div class="wrapper">
-			<h2 class="title">TOUR DATES</h2>
-			<h3 class="title">Remember to book your tickets!</h3>
+			<h2 class="title wow fadeIn">TOUR DATES</h2>
+			<h3 class="title wow fadeIn">Remember to book your tickets!</h3>
 			<ul class="ticket-wrap">
-				<li class="ticket clearfix">
+				<li class="ticket clearfix wow fadeInUp">
 					<span class="month">September</span>
 					<span class="soldout">Sold out</span>
 				</li>
-				<li class="ticket clearfix">
+				<li class="ticket clearfix wow fadeInUp">
 					<span class="month">October</span>
 					<span class="soldout">Sold out</span>
 				</li>
-				<li class="ticket clearfix">
+				<li class="ticket clearfix wow fadeInUp">
 					<span class="month">November</span>
 					<span class="cnt">3</span>
 				</li>
 			</ul>
 			<ul class="city-wrap clearfix">
 				<!-- li.city*3>.img-wrap>img.img^.cont-wrap>h4.name+.date+p.comment+button.bt-buy{Buy Tickets} -->
-				<li class="city">
+				<li class="city wow fadeInLeft" data-wow-delay="1s">
 					<div class="img-wrap">
 						<img src="../img/newyork.jpg" alt="city" class="img">
 					</div>
@@ -141,7 +143,7 @@
 						<button class="bt-buy">Buy Tickets</button>
 					</div>
 				</li>
-				<li class="city">
+				<li class="city wow fadeInUp">
 					<div class="img-wrap">
 						<img src="../img/paris.jpg" alt="city" class="img">
 					</div>
@@ -152,7 +154,7 @@
 						<button class="bt-buy">Buy Tickets</button>
 					</div>
 				</li>
-				<li class="city">
+				<li class="city wow fadeInRight" data-wow-delay="1s">
 					<div class="img-wrap">
 						<img src="../img/sanfran.jpg" alt="city" class="img">
 					</div>
@@ -171,13 +173,13 @@
 	<a name="contact" class="anchor"></a>
 	<section class="contact-wrapper">
 		<div class="wrapper">
-			<h2 class="title">CONTACT</h2>
-			<h3 class="title">Fan? Drop a note!</h3>
+			<h2 class="title wow fadeIn">CONTACT</h2>
+			<h3 class="title wow fadeIn">Fan? Drop a note!</h3>
 			<div class="contact-wrap clearfix">
 				<ul class="info-wrap">
-					<li class="address"><i class="fa fa-map-marker-alt"></i>Chicago, US</li>
-					<li class="phone"><i class="fa fa-phone-alt"></i>Phone: +00 151515</li>
-					<li class="email"><i class="fa fa-envelope"></i>Email: mail@mail.com</li>
+					<li class="address wow fadeInRight"><i class="fa fa-map-marker-alt"></i>Chicago, US</li>
+					<li class="phone wow fadeInRight" data-wow-delay="0.5s"><i class="fa fa-phone-alt"></i>Phone: +00 151515</li>
+					<li class="email wow fadeInRight" data-wow-delay="1s"><i class="fa fa-envelope"></i>Email: mail@mail.com</li>
 				</ul>
 				<form class="contact-form clearfix">
 					<input type="text" name="name" placeholder="name">
